@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpingbootAzureAppApplication {
 
 	@GetMapping("/message")
-	public String getMessage() {
-		return "I love you SIVA";
+	public String getMessage(){
+		return "I love you siva :)";
 	}
 
 	public static void main(String[] args) {
