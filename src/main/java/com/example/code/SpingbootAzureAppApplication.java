@@ -11,7 +11,7 @@ public class SpingbootAzureAppApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Hi";
+		return "I love you SIVA";
 	}
 
 	public static void main(String[] args) {
